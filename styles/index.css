@@ -1,0 +1,115 @@
+/* article*/
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  padding-top: 50px;
+}
+article  h1{
+  font-size: 50px;
+  max-width: 500px;
+  text-align:center;
+  color: aliceblue;
+}
+article button{
+  margin-top: 20px;
+  padding: 15px 20px;
+  font-size: 20px;
+  border:none;
+  border-radius: 5px;
+  outline:none;
+  cursor:pointer;
+}
+button:hover{ 
+  background: black;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+  /* Fin de l'article */
+  /*contenu recyclage*/
+  .divrecy{
+    width: 95%;
+    margin: auto;
+    position: relative;
+  }
+  .banniere{
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .btn-d {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+  }
+  button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    outline:none;
+    cursor:pointer;
+    margin-bottom: 40px;
+  }
+  button:hover{ 
+    background: black;
+    color: white;
+    transition: all 0.3s ease 0s}
+  /*fin du contenu recyclage*/
+
+  /*division video*/
+  .divvideo{
+    margin-top: 20px;
+    border-top: 2px solid rgb(12, 110, 201);
+    border-bottom: 2px solid rgb(12, 110, 201);
+    padding-bottom:20px;
+    width:100%;
+  }
+  .title{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  video{
+    margin-top: 27px;
+    float: right;
+    width: 500px;
+    margin-right: 50px;
+    border-radius: 20px;
+  }
+ .paragraphe{
+   margin-top: 30px;
+   margin-right: 650px;
+   margin-left: 50px;
+   font-size: 23px;
+   color: white;
+   text-indent:20px;
+   text-align: justify;
+  }
+/*fin de la division video*/
+  /* Section photos */
+  .accueil-photos {
+    background-color: white;
+    width: 80%;
+    padding: 40px;
+    margin: 30px;
+  }
+  .accueil-photos h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+.montre{
+  width: 310px;
+}
+/*fin de la Section photos */

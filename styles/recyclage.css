@@ -1,0 +1,74 @@
+.imgrecy{
+    width: 97%;
+    height: 350px;
+    margin-top: 5px;
+}
+img+h1,h3{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+p{
+    width: 800px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*formulaire*/
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 300px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+  .cta-button {
+    background-color: #108301;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 90px;
+    text-decoration: none;
+    border-radius: 4px;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 10px;
+}
+fieldset{
+padding:10px;
+margin-top: 25px;
+}
+/*fin du formulaire*/
+
+section{
+    background: rgb(78, 78, 78);
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+video{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+video+p{
+    color: white;
+    text-align: center;
+    margin-left: 130px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/*banniere*/
+.ban{
+    margin-top:20px;
+}
+.ban1{
+    width: 1110px;
+}
